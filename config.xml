@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.camcaritur.pescweb" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Camaçari Turismo</name>
+<widget id="com.camacaritur" version="1.3.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Projeto Tocar Itinerante</name>
     <description>
-        Tudo sobre Camaçari.
+        Esse App foi criado auxiliar no curso de violão do Projeto Tocar.
     </description>
     <author email="tommy@devgeeks.org" href="http://phonegap.com">
         Adobe PhoneGap Team
     </author>
     <content src="index.html" />
-    <access origin="http://127.0.0.1/*" />
+    <access origin="http://127.0.0.1*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -99,6 +99,5 @@
     <preference name="FadeSplashScreenDuration" value="300" />
     <engine name="android" spec="~4.1.1" />
     <preference name="phonegap-version" value="cli-6.1.0" />
-    <gap:plugin name="phonegap-admob" source="npm"/>
     <engine name="ios" spec="~4.1.1" />
 </widget>
