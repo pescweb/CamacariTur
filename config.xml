@@ -36,7 +36,7 @@
         <splash density="port-mdpi" src="res/screen/android/drawable-port-mdpi/screen.png" />
         <splash density="port-xhdpi" src="res/screen/android/drawable-port-xhdpi/screen.png" />
     </platform>
-    <platform name="ios">
+    <platform name="ios">        
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
         <preference name="Orientation" value="all" />
