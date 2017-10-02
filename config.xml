@@ -101,5 +101,5 @@
     <engine name="android" spec="~4.1.1" />
     <engine name="ios" spec="^4.0.0" />
     <engine name="windows" spec="~4.1.0"/>
-    <preference name="phonegap-version" value="cli-6.4.0" />    
+    <preference name="phonegap-version" value="cli-6.5.0" />    
 </widget>
